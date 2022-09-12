@@ -1,0 +1,156 @@
+#wrapper {
+    text-align: center;
+}
+#pairs {
+    overflow:scroll;
+    padding: 15px;
+    width: 60%;
+    float:left;
+}
+#ranking {
+    height: 300px;
+    overflow: scroll;
+    padding: 15px;
+}
+#transactions {
+    height: 300px;
+    overflow: scroll;
+    padding: 15px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+body{
+    text-align: center;
+    font-family: "Montserrat";
+	font-weight: 100;
+    padding: 0;
+    margin: 0;
+    background-color:   #f1b431;
+    background-size: 56px 56px;
+    background-image:
+    linear-gradient(
+        135deg,
+        transparent 55%,
+        #f1b431 55%
+    ),
+     radial-gradient(
+        transparent 6px,
+        #ffffff 6px,
+        #ffffff 10px,
+        transparent 10px,
+        transparent 15px,
+        #ffffff 15px,
+        #ffffff 19px,
+        transparent 19px,
+        transparent 24px,
+        #ffffff 24px,
+        #ffffff 28px,
+        transparent 28px
+    );
+}
+
+
+table {
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255,255,255,0.9);
+    width: 100%;
+	border-collapse: collapse;
+	overflow: hidden;
+}
+
+th, td {
+	padding: 12px;
+}
+
+thead th{
+    background-color: rgba(247, 168, 0, 0.3);
+}
+
+
+tbody tr:hover {
+    background-color: rgba(247, 168, 0, 0.2);
+}
+
+
+.navMenu {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    background-color: #f1b431;
+}
+
+.navMenu a {
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    padding: 15px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #fddb3a;
+}
+
+#logout {
+    float: right
+}
+
+.buyButton {
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    transition-duration: 0.4s;
+}
+      
+.buyButton:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.sellButton {
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+    transition-duration: 0.4s;
+}
+      
+.sellButton:hover {
+    
+    background-color: red;
+    color: white;
+}
+
+#logout {
+    font-weight: 500;
+    color: red;
+}
+
+#logout:hover {
+    color: #fddb3a;
+}
+
+.topRow {
+    background-color: #f7ce75;
+}
+
+.Sell {
+    background-color: rgba(236, 83, 83, 0.382);
+}
+.Buy {
+    background-color: rgba(99, 212, 99, 0.494)
+}
+
+.usd-row{
+    border: solid 2px green;
+}
